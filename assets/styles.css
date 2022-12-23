@@ -1,0 +1,52 @@
+html {
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+  }
+  body{
+    border-bottom-width: 0px;
+    margin-right: 0px;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+    color: black;
+    background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+  .nav{
+    width: 30rem;
+    flex-direction: column;
+    background-color: rgb(211, 218, 218);
+   padding: 30px 30px;
+  }
+.content{
+    padding: auto;
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+}
+  p{
+      font-size: large;
+      font-weight: bold;
+  }
+
+  button{
+      background-color: rgb(167, 62, 83);
+      border-color: black;
+      border-radius: 15px;
+      height: 2rem;
+      padding: 7px 7px;
+  }
+
+  input
+  {
+      width: 90%;
+  }
